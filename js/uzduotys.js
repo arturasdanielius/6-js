@@ -1,4 +1,4 @@
-/*Kintamųjų inicijavimas
+console.log('Kintamųjų inicijavimas');
 
 1. /*Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
 Po kiekvieno jų inicijavimo, išvesti į console*/
@@ -39,7 +39,7 @@ console.log(sk3);
 4. /*Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
 Po kiekvieno jų inicijavimo, išvesti į console*/
 
-let tx1 = ['as', 'tu', 'mes', 'visi', 'kartu']
+let tx1 = ['as', 'ir', 'tu', 'mes', 'kartu']
 console.log(tx1);
 
 let tx2 = ['5', '4', '3', '2', '1']
@@ -47,3 +47,19 @@ console.log(tx2);
 
 let tx3 = ['q', 'w', 'e', 'r', 't']
 console.log(tx3);
+
+console.log('---------------------------------------');
+
+console.log('Veiksmai su kintamaisiais');
+
+
+/*Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
+Rezultatą išvesti į console
+Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
+1-2+3-4+5
+Rezultatą išvesti į console
+Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas*/
+
+
+1. /*Susumuoti visus skaičiaus tipo kintamuosius
+Rezultatą išvesti į console*/
