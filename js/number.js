@@ -5,7 +5,7 @@ NUMBERS:
 - desimtainiai
 "nenormalus":
 - ne skaicius
-- negalybes
+- begalybes
 */
 
 // sveikasis
@@ -17,6 +17,7 @@ const b = 3.14;
 // neigiami
 const c = -7;
 
+// begalybes (apsukta astunke) &infin; - entitie
 const d = Infinity;
 const e = -Infinity;
 
@@ -115,3 +116,4 @@ console.log(Math.trunc(-3.99999));
 console.log(Math.floor(-3.47));
 console.log(Math.floor(-3.00001));
 console.log(Math.floor(-3.99999));
+

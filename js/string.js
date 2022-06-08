@@ -2,7 +2,7 @@
 String -> tekstas
 Iniciavimas:
 - viengubos kabutes
-- dvygubos kabutes
+- dvigubos kabutes
 - backtick kabutes
 */
 
@@ -15,13 +15,13 @@ console.log(city);
 const kabute1 = "Vienguba (') kabute.";
 console.log(kabute1);
 
-const kabute2 = 'Dvyguba (") kabute.';
+const kabute2 = 'Dviguba (") kabute.';
 console.log(kabute2);
 
-const kabute121 = 'Vienguba (\') ir dvyguba (\") kabutes.';
+const kabute121 = 'Vienguba (\') ir dviguba (\") kabutes.';
 console.log(kabute121);
 
-const kabute122 = "Vienguba (\') ir dvyguba (\") kabutes.";
+const kabute122 = "Vienguba (\') ir dviguba (\") kabutes.";
 console.log(kabute122);
 
 const keliosEilutes = '<div>\
@@ -41,7 +41,7 @@ console.log(hello);
 // Siandien yra 23 laipsniai silumos ir nuotaiko yra gera.
 const temp = 23;
 const nuotaika = 'gera';
-const orai = `Siandien yra ${temp} (jauciasi kaip: ${temp + 4}) laipsniai silumos ir nuotaiko yra "${nuotaika}".`;
+const orai = `Siandien yra ${temp} (jauciasi kaip: ${temp + 4}) laipsniai silumos ir nuotaika yra "${nuotaika}".`;
 
 console.log(orai);
 

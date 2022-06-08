@@ -8,6 +8,7 @@
     "number": "nodemon ./js/number.js",
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
+    "uzduotys": "nodemon ./js/uzduotys.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
