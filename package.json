@@ -9,6 +9,9 @@
     "function": "nodemon ./js/function.js",
     "if": "nodemon ./js/if.js",
     "uzduotys": "nodemon ./js/uzduotys.js",
+    "ternary": "nodemon ./js/ternary.js",
+    "for": "nodemon ./js/for.js",
+    "array": "nodemon ./js/array.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
