@@ -7,8 +7,8 @@ if () {} else if () {}
 if () {} else if () {} ....  else if () {}
 if () {} else if () {} ....  else if () {} else {}
 Palyginimo operatoriai:
-visi: >, <, >=, >=, <=, <=, ==, !=, ===, !==
-naudotini: >, <, >=, >=, <=, <=, ===, !==
+visi: >, <, >=, <=, ==, !=, ===, !==
+naudotini: >, <, >=, <=, ===, !==
 nenaudotini: ==, !=
 Loginiai operatoriai:
 && (and) - turi tenkinti visos salygos
