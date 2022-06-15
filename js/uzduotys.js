@@ -214,7 +214,7 @@ if (e.length <= r.length) {
 console.log('--------3cio-ketvirtas-------------');
 /* 4.Išvesti sąrašo tipo kintamųjų ilgius*/
 
-const sarasas = ['Programavimas', 'yra', 'coohuyuyuiyuil'];
+const sarasas = ['Programavimas', 'yra', 'cool'];
     for (let i = 0; i < sarasas.length; i++) {
         console.log(sarasas[i].length);
 }
@@ -229,8 +229,10 @@ c. ar jie lygūs
 d. ar jie nelygūs
 e. kuris didesnis arba lygus
 f. kuris mažesnis arba lygus*/
- let verte = 0;
- let pozicija = 0;
+
+// a. kuris didesnis
+let verte = 0;
+let pozicija = 0;
 for (let i = 0; i < sarasas.length; i++) { 
     if (verte < sarasas[i].length){
         verte = sarasas[i].length;
@@ -238,3 +240,81 @@ for (let i = 0; i < sarasas.length; i++) {
     } 
 
 } console.log(pozicija, verte);
+
+// b. kuris mažesnis
+const sarasas1 = ['Programavimas', 'yra', 'cool'];
+const k = sarasas1;
+if (k[0].length < k[1].length && k[0].length < k[2].length) {
+    console.log(k[0].length);
+} else {
+    if (k[1].length < k[2].length) {
+        console.log(k[1].length);
+    } else {
+        console.log(k[2].length);
+    }   
+}    
+
+// const k = ['Programavimas', 'yra', 'cool'];
+// c. ar jie lygus
+if (k[0].length === k[1].length && k[0].length === k[2].length) {
+    console.log('equel');
+    } else {
+        console.log('not equal');
+}
+
+// d. ar jie nelygus, siaip galima ir nerasyti, nes jei jie buvo tikrinti "ar lygus", tai else reiksme ismete, kad jie nelygus.
+
+if (k[0].length !== k[1].length && k[0].length !== k[2].length){
+    console.log('they are not equel');
+    } else {
+        console.log('equel');
+}    
+
+// const k = ['Programavimas', 'yra', 'cool'];
+// e. kuris didesnis arba lygus
+
+if (k[0].length >= k[1].length && k[0].length >= k[2].length){
+    console.log(k[0].length);
+    } else {
+        if (k[1].length >= k[2].length){
+            console.log(k[1].length);
+        } else {
+            console.log(k[2].length);
+        }
+    }    
+// f. kuris mažesnis arba lygus
+
+if (k[0].length <= k[1].length && k[0].length <= k[2].length){
+    console.log(k[0].length);
+    } else {
+        if (k[1].length <= k[2].length){
+            console.log(k[1].length);
+        } else {
+            console.log(k[2].length);
+        }
+    }    
+
+//Ciklo for panaudojimas
+/* 
+Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+0 … 0
+0 … 4
+0 … 100
+574 … 815
+-50 … 50
+-70 … 30
+
+*/
+
+
+/*
+panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
+pvz.: “abcdef” -> “fedcba”
+Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
+0 - 11
+8 - 31
+-18 - 18
+rezultatą pateikti tokiu formatu:
+Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
+Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
+Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.*/
