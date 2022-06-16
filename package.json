@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "number-parsing": "nodemon ./js/number-parsing.js",
     "string": "nodemon ./js/string.js",
     "number": "nodemon ./js/number.js",
     "function": "nodemon ./js/function.js",
