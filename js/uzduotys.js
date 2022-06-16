@@ -293,7 +293,7 @@ if (k[0].length <= k[1].length && k[0].length <= k[2].length){
             console.log(k[2].length);
         }
     }    
-
+console.log('--------4too-pirmas-------------'); 
 //Ciklo for panaudojimas
 /* 
 Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
@@ -318,3 +318,37 @@ rezultatą pateikti tokiu formatu:
 Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra 4 vienetai.
 Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
 Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.*/
+
+
+function getPlanetName(id){
+    var name;
+    switch(id){
+      case 1:
+        name = 'Mercury';
+        break;
+      case 2:
+        name = 'Venus';
+        break;
+      case 3:
+        name = 'Earth';
+        break;
+      case 4:
+        name = 'Mars';
+        break;
+      case 5:
+        name = 'Jupiter';
+        break;
+      case 6:
+        name = 'Saturn';
+        break;
+      case 7:
+        name = 'Uranus';
+        break;
+      case 8:
+        name = 'Neptune';
+        break;
+    }
+    
+    return name;
+  }
+  console.log(getPlanetName(5));
