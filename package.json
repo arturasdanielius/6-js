@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
         "numberImport": "nodemon ./numberImport.js",
+        "random": "nodemon ./js/random.js",
+        "set": "nodemon ./js/set.js",
+        "concat": "nodemon ./js/concat.js",
+        "cw-stats": "nodemon ./js/cw-stats.js",
         "textCount": "nodemon ./js/textCount.js",
         "if-values": "nodemon ./js/if-values.js",
         "parsing": "nodemon ./js/parsing.js",
