@@ -354,6 +354,7 @@ function getPlanetName(id){
 console.log(getPlanetName(5));
 
 console.log('----------possitive-sum--------');
+const arr = [1, 3, 6, -4]
 
 function positiveSum(arr) {
     let sum = 0;
@@ -365,23 +366,79 @@ function positiveSum(arr) {
     return sum;
 }
 
-def arraymadness(a,b):
-    a = sum(i**2 for i in a)
-    b = sum(i**2 for i in b)
+console.log(positiveSum(arr));
 
-    return True if a > b else False
+console.log('----------arrayMadness(a1, b1)--------');
+
+const a1 = [4, 5, 7];
+const b1 = [1, 2, 3];
+
+function arrayMadness(a1, b1) {
+    let sum2 = 0;
+    let sum3 = 0;
+    for (let i = 0; i < a1.length; i++) {
+      sum2 += (a1[i] ** 2);
+    }
+    for (let i = 0; i < b1.length; i++) {
+        sum3 += (b1[i] ** 3);
+    } 
+    if (sum2 > sum3){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(arrayMadness(a1, b1));
+
+console.log('----------correctPolishLetters (string)-------');
 
 
-/*
-const { assert } = require("chai")
 
-describe("Basic tests", () => {
-  it("Testing for fixed tests", () => {
-    assert.strictEqual(positiveSum([1,2,3,4,5]),15);
-    assert.strictEqual(positiveSum([1,-2,3,4,5]),13);
-    assert.strictEqual(positiveSum([]),0);
-    assert.strictEqual(positiveSum([-1,-2,-3,-4,-5]),0);
-    assert.strictEqual(positiveSum([-1,2,3,4,-5]),9);
-    });
-  });
-*/
+const string = 'Jędrzej Błądziński, Lech Wałęsa';
+
+function correctPolishLetters (string) {
+    const mapping = {
+        ą: "a", ć: "c", ę: "e", ł: "l", ń: "n", ó: "o", ś: "s", ź: "z", ż: "z",
+      };
+      return (
+        string
+          .split("")
+          .map(
+            (char) => Object.keys(mapping).includes(char) ? mapping[char]
+                : char)
+          .join("")
+      );
+    }
+console.log(correctPolishLetters(strin8g));
+
+console.log('------Vardo dazniausios poros (string)-------');
+
+const input = '363893160729301001962899662543045652207145013274714531343567211502277651867644909617634521876014153148099096024742289387408160762194216522836592594473421';
+
+function charPairCount (str) {
+    const raides = {
+}
+let duartimi = 0;
+for ( const symbol in string) {
+    duartimi = raides[symbol]
+}
+}
+
+
+/*let
+
+function charCount(str) {
+    const raides = {
+        a: 1
+    };
+
+    for (const symbol of str) {
+        if (raides[symbol]) {
+            raides[symbol]++;
+        } else {
+            raides[symbol] = 1;
+        }
+    }
+
+    return raides;
+}*/
