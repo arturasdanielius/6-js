@@ -7,7 +7,7 @@
         "family": "nodemon ./js/family.js",
         "maxinList": "nodemon ./js/maxinList.js",
         "numCount": "nodemon ./js/numCount.js",
-        "pairCount": "nodemon ./js/pairCont.js",
+        "pairCount": "nodemon ./js/pairCount.js",
         "random": "nodemon ./js/random.js",
         "set": "nodemon ./js/set.js",
         "concat": "nodemon ./js/concat.js",
