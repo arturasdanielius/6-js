@@ -409,21 +409,9 @@ function correctPolishLetters (string) {
           .join("")
       );
     }
-console.log(correctPolishLetters(strin8g));
+console.log(correctPolishLetters(string));
 
-console.log('------Vardo dazniausios poros (string)-------');
-
-const input = '363893160729301001962899662543045652207145013274714531343567211502277651867644909617634521876014153148099096024742289387408160762194216522836592594473421';
-
-function charPairCount (str) {
-    const raides = {
-}
-let duartimi = 0;
-for ( const symbol in string) {
-    duartimi = raides[symbol]
-}
-}
-
+console.log('----Vardo-raidziu-dazniausios-poros-(string)----');
 
 /*let
 
