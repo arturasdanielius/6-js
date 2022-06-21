@@ -413,20 +413,4 @@ console.log(correctPolishLetters(string));
 
 console.log('----Vardo-raidziu-dazniausios-poros-(string)----');
 
-/*let
 
-function charCount(str) {
-    const raides = {
-        a: 1
-    };
-
-    for (const symbol of str) {
-        if (raides[symbol]) {
-            raides[symbol]++;
-        } else {
-            raides[symbol] = 1;
-        }
-    }
-
-    return raides;
-}*/
