@@ -411,6 +411,14 @@ function correctPolishLetters (string) {
     }
 console.log(correctPolishLetters(string));
 
-console.log('----Vardo-raidziu-dazniausios-poros-(string)----');
+console.log('----All Star Code Challenge #18----');
 
 
+const str = ('Labas rytas Lietuva')
+const letter = ('s')
+
+function strCount(str, letter){
+    for (let i = 0; i < str.lenth; i++){
+        const value = str.split('')}
+        console.log(value);
+}
