@@ -411,14 +411,21 @@ function correctPolishLetters (string) {
     }
 console.log(correctPolishLetters(string));
 
+console.clear();
 console.log('----All Star Code Challenge #18----');
 
-
-const str = ('Labas rytas Lietuva')
-const letter = ('s')
-
-function strCount(str, letter){
-    for (let i = 0; i < str.lenth; i++){
-        const value = str.split('')}
-        console.log(value);
+const t1 = 'Labas rytas Lietuva'
+const t2 = 'a'
+let raides = []
+function strCount(t1, t2){
+   raides = t1.split('')
+   let t2count = 0;
+   for (let i = 0; i < raides.length; i++) {
+        if (t2 === raides[i]){
+            t2count += 1;
+        }
+   }
+   return t2count;
 }
+console.log(strCount(t1,t2));
+
