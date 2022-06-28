@@ -429,3 +429,29 @@ function strCount(t1, t2){
 }
 console.log(strCount(t1,t2));
 
+console.clear();
+console.log('----Is it even?----');
+
+
+
+function testEven(n) {
+    if (n % 2 === 0){
+        return true;
+    }  else {
+        return false;
+    }
+}
+console.log(testEven());
+
+console.clear();
+console.log('---Will you make it?---');
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft);
+   /*function zeroFuel (a, b, c) {*/
+    if (distanceToPump <= mpg * fuelLeft){
+        return true;     
+    }else { 
+        return false;
+}
+
+console.log(zeroFuel);
