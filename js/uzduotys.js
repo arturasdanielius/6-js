@@ -446,12 +446,31 @@ console.log(testEven());
 console.clear();
 console.log('---Will you make it?---');
 
-const zeroFuel = (distanceToPump, mpg, fuelLeft);
-   /*function zeroFuel (a, b, c) {*/
-    if (distanceToPump <= mpg * fuelLeft){
+const distanceToPump = 50;
+const mpg = 25;
+const fuelLeft = 2 ;
+
+function zeroFuel (distanceToPump, mpg, fuelLeft) {
+   if (mpg*fuelLeft >= distanceToPump){
         return true;     
     }else { 
         return false;
+    }
 }
+console.log(zeroFuel());
 
-console.log(zeroFuel);
+console.clear();
+console.log('---Difference in Age ?---');
+
+
+const agesList = [57, 99, 14, 32];
+const maxMinList = [...agesList].sort((a, b) => b - a);
+let did = maxMinList[0];
+let maz = maxMinList[maxMinList.length -1];
+let skirt = did - maz;
+
+return [maz, did, skirt];
+//return [maxMinList[maxMinList.length -1], maxMinList[0], maxMinList[0] - maxMinList[maxMinList.length -1]];
+
+//console.log(maz, did, skirt);
+
