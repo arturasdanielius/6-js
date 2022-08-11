@@ -246,13 +246,11 @@ const sarasas1 = ['Programavimas', 'yra', 'cool'];
 const k = sarasas1;
 if (k[0].length < k[1].length && k[0].length < k[2].length) {
     console.log(k[0].length);
-} else {
-    if (k[1].length < k[2].length) {
-        console.log(k[1].length);
+} else  if (k[1].length < k[2].length){
+    console.log(k[1].length);
     } else {
-        console.log(k[2].length);
-    }   
-}    
+    console.log(k[2].length);
+};   
 
 // const k = ['Programavimas', 'yra', 'cool'];
 // c. ar jie lygus
@@ -463,13 +461,14 @@ console.clear();
 console.log('---Difference in Age ?---');
 
 
-const agesList = [57, 99, 14, 32];
-const maxMinList = [...agesList].sort((a, b) => b - a);
-let did = maxMinList[0];
-let maz = maxMinList[maxMinList.length -1];
-let skirt = did - maz;
+const agesList = [57, 99, 14, 101, 32];
 
-return [maz, did, skirt];
+const differenceInAges = (agesList) => {
+    agesList.sort((a, b) => a - b);
+    
+    return [agesList[0], ages[agesList.length - 1], agesList[0] - ages[agesList.length - 1]];
+};
+
 //return [maxMinList[maxMinList.length -1], maxMinList[0], maxMinList[0] - maxMinList[maxMinList.length -1]];
 
 //console.log(maz, did, skirt);

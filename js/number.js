@@ -80,8 +80,12 @@ console.log(2.5, '-> round ->', Math.round(2.5));
 console.log(2.500001, '-> round ->', Math.round(2.500001));
 console.log(3, '-> round ->', Math.round(3));
 
+console.log('-----pekelta laipsniu------');
+
 console.log(Math.pow(2, 4));
 console.log(2 ** 4);
+
+console.log('--- min--max--------');
 
 console.log(Math.max(1, 10, 7, 5));
 console.log(Math.min(1, 10, 7, 5));
