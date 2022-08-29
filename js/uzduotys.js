@@ -1,4 +1,4 @@
-console.log('Kintamųjų inicijavimas');
+console.log('---1Kintamųjų inicijavimas------');
 
 1. /*Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
 Po kiekvieno jų inicijavimo, išvesti į console*/
